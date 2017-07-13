@@ -1,0 +1,45 @@
+coche
+string matricula
+string color
+string modelo
+int numruedas(4)
+
+Moto
+String matricula
+String color
+String modelo
+int ruedas(2)
+
+Bicicleta
+String color
+String modelo
+int ruedas(2)
+
+
+Coche Manager
+atributo
+list<coche> coches = new ArrayList<>();
+	metodos
+	list()
+	guardar(coche)
+	delete(coche)
+coches.add(coche);
+coches.remove(coche);
+
+list() --> return coches
+
+Moto Manager
+	metodos
+	list()
+	guardar(moto)
+	delete(moto)
+
+Bicicleta Manager
+	metodos
+	list()
+	guardar(bicicleta)
+	delete(bicicleta)
+
+
+if (1.1) 
+cochesmanager.list()
