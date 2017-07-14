@@ -86,8 +86,6 @@ public class GarageRunner {
 	}
 
 	private static Bicycle bicycleBuilder() {
-		System.out.println("Introduzca matricula");
-		String plate = sc.nextLine();
 		System.out.println("Introduzca color");
 		String color = sc.nextLine();
 		System.out.println("Introduzca modelo");
